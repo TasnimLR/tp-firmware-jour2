@@ -1,0 +1,1 @@
+/etc/shadow -> /dev/null (symlink - shadow toujours vide !)

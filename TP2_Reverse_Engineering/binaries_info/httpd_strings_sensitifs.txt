@@ -1,0 +1,382 @@
+system
+DEBUG_INFO
+bpaloginGetConnectionStatus
+system_update_timezone
+passwordrecovered.cgi
+multi_login.cgi
+debug_httpd_log
+www.routerlogin.net
+www.routerlogin.com
+passwordrecovered_debug2
+passwordrecovered_debug
+routerlogin
+/bin/sh
+enable_password_recovery
+http_passwd
+http_passwd_digest
+weak_passwd_neverRemind
+weak_password_check
+genie_secure_password.htm
+MNU_access_multiLogin2.htm
+[Admin login] from source %s,
+[Admin login failure] from source %s,
+[Remote login] from source %s,
+[Remote login failure] from source %s,
+MNU_multiLogin.htm
+[%s:%d] is_multi_login: %d
+MNU_access_guest_overLogin.htm
+userlogin.cgi
+/genie_index_secure_password.htm
+killall -9 swresetd > /dev/null 2> /dev/null; killall -9 dnsRedirectReplyd > /dev/null 2> /dev/null; killall -9 dnsmasq > /dev/null 2> /dev/null; killall -9 telnetenabled > /dev/null 2> /dev/null; killall -9 ddnsd > /dev/null 2> /dev/null; killall -9 upnpd > /dev/null 2> /dev/null; killall -9 email > /dev/null 2> /dev/null; killall -9 acl_logd > /dev/null 2> /dev/null; killall -9 lld2d > /dev/null 2> /dev/null; killall -9 wpsd > /dev/null 2> /dev/null; killall -9 wps_monitor > /dev/null 2> /dev/null; killall -9 wps_ap > /dev/null 2> /dev/null; killall -9 upnp > /dev/null 2> /dev/null; killall -9 timesync > /dev/null 2> /dev/null; killall -9 tfmeter > /dev/null 2> /dev/null; killall -9 gproxy > /dev/null 2> /dev/null; killall -9 scheact > /dev/null 2> /dev/null; killall -9 check_fw > /dev/null 2> /dev/null; killall -9 minidlna.exe > /dev/null 2> /dev/null; killall -9 dlnad > /dev/null 2> /dev/null; killall -9 wscd > /dev/null 2> /dev/null; killall -9 pot > /dev/null 2> /dev/null 
+debuginfo.htm
+reset_admin_account.cgiMNU_accessPasswdRecovery.htm
+MNU_accessPassword_recovered.htm
+MNU_access_login_top.htm
+reset_admin_account.cgi
+Open System
+gui_get_guest_or_admin_mode("0");
+gui_get_guest_or_admin_mode("1");
+gui_get_guest_or_admin_mode("2");
+gui_get_guest_or_admin_mode(11);
+gui_get_guest_or_admin_mode("9");
+gui_get_guest_or_admin_mode("10");
+gui_get_guest_or_admin_mode("6");
+getstr("admin_adv");
+getstr("passwd_menu");
+gui_get_guest_or_admin_mode("3");
+gui_get_guest_or_admin_mode("4");
+gui_get_guest_or_admin_mode("5");
+gui_get_guest_or_admin_mode(3);
+gui_get_guest_or_admin_mode(4);
+gui_get_guest_or_admin_mode(5);
+rst_cgi_get_login_connect_time();
+rst_cgi_get_login_status("Connect");
+rst_cgi_get_login_status("LCP");
+rst_cgi_get_login_status("Authentication");
+rst_cgi_get_login_status("IP");
+nvram_get("single_pppoe_login");
+nvram_get("system_name");
+getstr("basic_pppoe_login");
+getstr("basic_pppoe_passwd");
+nvram_get("pppoe_passwd");
+nvram_get("pptp_passwd");
+gui_get_guest_or_admin_mode("3", "id=allow");
+gui_get_guest_or_admin_mode("3", "id=block");
+getstr("password_null");
+getstr("ddns_netgear_password");
+getstr("ddns_netgear_password_format");
+getstr("ddns_netgear_confirmPassword");
+nvram_get("ddns_netgear_passwd");
+nvram_get("ddns_passwd");
+gui_get_guest_or_admin_mode("3", "id=NReset");
+gui_get_guest_or_admin_mode("3", "id=NRegister");
+gui_get_ga_mode_special_cases("2", "admin_btn_start");
+gui_get_ga_mode_special_cases("2", "admin_btn_end");
+getstr("log_cat_login");
+getstr("passwd_head");
+getstr("thank_login_info_0");
+getstr("thank_login_info_1");
+getstr("thank_login_info_2");
+getstr("thank_login_info_3");
+getstr("forget_admin_password");
+getstr("default_password");
+getstr("help_passwd_recovery");
+nvram_get("password_question1");
+nvram_get("password_question2");
+getstr("passwd_length_6");
+getstr("default_passwd_not_allow");
+getstr("empty_passwd_not_allow");
+getstr("alert_enable_passwd_revery");
+nvram_get("enable_password_recovery");
+getstr("passwd_curpas");
+getstr("weak_password_rule");
+getstr("weak_password_rule2");
+getstr("weak_password_rule4");
+getstr("weak_password_rule1");
+getstr("weak_password_rule1_1");
+getstr("weak_password_rule1_2");
+getstr("weak_password_rule1_3");
+getstr("weak_password_rule1_4");
+getstr("passwd_repas");
+getstr("enable_password_reset");
+getstr("lastime_password_reset");
+getstr("h_passwd");
+nvram_get("bpa_passwd");
+getstr("quick_qos_firstlogin_warning");
+gui_get_guest_or_admin_mode("7");
+quick_qos_cgi_get_edit_param("first_login");
+getstr("invalid_login");
+getstr("bh_password_error");
+getstr("RU_login_error");
+getstr("RU_login_string");
+getstr("RU_login_yes_str");
+getstr("RU_login_no_str");
+getstr("bh_ddns_passwd");
+getstr("admin");
+usb_cgi_is_all_admin_folder();
+usb_cgi_get_info("file_system")
+getstr("usb_cloud_login");
+gui_get_guest_or_admin_mode(3, "id=del_sche");
+gui_get_guest_or_admin_mode(3, "id=del_sche_an");
+debug_cgi_get_param("usb_storage_detected");
+debug_cgi_get_param("iqos_device_user_info");
+debug_cgi_get_param("iqos_device_dev_info");
+debug_cgi_get_param("iqos_device_app_info");
+debug_cgi_get_param("iqos_device_qos_info");
+genie_cgi_set_congratulation_bypass();
+admin_account_support("disable","js_start");
+admin_account_support("disable","js_end");
+admin_account_support("disable","html_start");
+admin_account_support("disable","html_end");
+admin_account_support("enable","html_start");
+admin_account_support("enable","html_end");
+genie_cgi_set_genie_download_bypass();
+debug_cgi_get_param("wan_proto");
+debug_cgi_get_param("model_name");
+new_debug_cgi_get_param("CPU_Load_0");
+new_debug_cgi_get_param("CPU_Load_1");
+new_debug_cgi_get_param("Memory_Usage_Used");
+new_debug_cgi_get_param("Memory_Usage_Total");
+new_debug_cgi_get_param("Flash_Usage_Used");
+new_debug_cgi_get_param("Flash_Usage_Total");
+new_debug_cgi_get_param("Network_Session_Active");
+new_debug_cgi_get_param("System_Uptime");
+new_debug_cgi_get_param("start_when_boot_up");
+new_debug_cgi_get_param("hidden_page_debug_status");
+new_debug_cgi_get_param("packet_capture");
+new_debug_cgi_get_param("port_mirror");
+new_debug_cgi_get_param("ra_ftp_server");
+new_debug_cgi_get_param("ra_https_server");
+new_debug_cgi_get_param("ra_init_start_time");
+nvram_get("pppoe_tmp_passwd");
+nvram_get("pppoe2_east_passwd");
+nvram_get("pppoe2_west_passwd");
+nvram_get("pppoe2_passwd");
+nvram_get("pppoe_temp_passwd");
+nvram_get("wwan_password");
+getstr("bh_3G_save_debug");
+nvram_get("l2tp_user_passwd");
+nvram_get("ipv6_system_name");
+getstr("ipv6_pppoe_same_login");
+nvram_get("ipv6_pppoe_passwd");
+nvram_get("ipv6_system_name_auto");
+getstr("bh_pppoe_login_name");
+getstr("bh_ISP_namePasswd_error");
+getstr("admin_pw_limit");
+getstr("bh_admin_gui_header");
+getstr("bh_admin_gui_msg");
+getstr("bh_new_password");
+getstr("bh_secure_passwd_header");
+getstr("bh_secure_passwd_msg");
+nvram_match("weak_password_check", "2", "display: none");
+nvram_match("weak_password_check", "2", "<!--");
+nvram_match("weak_password_check", "2", "-->");
+nvram_invmatch("weak_password_check", "2", "<!--");
+nvram_invmatch("weak_password_check", "2", "-->");
+nvram_match("weak_password_check", "2", "display: none;");
+nvram_invmatch("weak_password_check", "2", "display: none;");
+getstr("router_password_reset");
+getstr("router_password_reset_msg");
+getstr("router_password_reset")
+getstr("reset_admin_passwd");
+getstr("reset_can_login");
+getstr("login_change_mark")
+getstr("router_admin_user");
+getstr("router_admin_passwd");
+getstr("bh_multi_login_info");
+getstr("admin_pw_protect");
+getstr("admin_acount_warn");
+gui_get_guest_or_admin_mode(8);
+getstr("cp_passwd");
+nvram_get("leafp2p_remote_login");
+nvram_get("leafp2p_remote_password");
+rst_cgi_get_login_connect_time
+rst_cgi_get_login_status
+new_debug_cgi_get_param
+usb_cgi_is_all_admin_folder
+gui_get_guest_or_admin_mode
+genie_cgi_set_congratulation_bypass
+genie_cgi_set_genie_download_bypass
+admin_account_support
+newdebug.cgi
+radebug.cgi
+wsw_passwd.cgi
+wsw_passwd_edit.cgi
+secure_password.cgi
+opensystem
+Open-System
+rm /tmp/xCloud_Debug_log.zip
+cd /tmp; zip -l xCloud_Debug_log.zip xagent.pid xagent.log genie_handler.log
+[AFP]: cannot open xcloud_debug_log.
+wl assoclist > /tmp/debug_sta_info
+wl -i eth2 assoclist > /tmp/debug_sta_info
+debug_capture_wifi_log
+debug_usb_disk
+killall debug_logd
+echo ==========================Internet IPv4/IPv6 connection debug log==============================>> /tmp/info.txt
+cat /tmp/Internet_connection_debug_log >> /tmp/info.txt
+rm /tmp/Debug_log.zip
+cd /tmp; zip -l Debug_log.zip mtd17 mtd16 gbsd.log Console-log1.txt Console-log2.txt udhcpd.leases router_config chip_temp_dbg.log BR.cap BR.cap0 BR.cap1 BR.cap2 ETH.cap ETH.cap0 ETH.cap1 ETH.cap2 PPP.cap PPP.cap0 PPP.cap1 PPP.cap2 ./media/nand/httpd_dbg.txt ./media/nand/gbsd_dbg_old.txt ./media/nand/gbsd_dbg.txtcore dhcp6s_debug.txt dhcp6c_debug.txt radvd_debug.txt rtsol_debug.txt ra_debug_log.txt IPv6_autodetect.cap0 IPv6_autodetect.cap1 IPv6_autodetect.cap2 radvd.conf dhcp6c.conf dhcp6s.conf wan_ipv6_ra_detect.result wan_dhcp6c wan_dhcp6c_iapd gbsd.txt gbsd_dbg.txt gbsd_dbg_old.txt gbsd_old.txt email_debug.txt available_5g_network available_network ./media/nand/httpd_dbg_old.txt downstream_qos_log.txt wan_detect_log httpd_dbg_old.txt httpd_dbg.txt email_debug.txt DevDataToFingJson bitdefender_logs.tar.gz hardware_info UpAgent.log xagent.conf sso_log
+rm /tmp/media/nand/httpd_dbg.txt /tmp/media/nand/httpd_dbg_old.txt /tmp/media/nand/httpd_dbg_old.txt /tmp/media/nand/httpd_dbg_old.txt /tmp/media/nand/gbsd_dbg.txt /tmp/media/nand/gbsd_dbg_old.txt /tmp/info.txt /tmp/info_old.txt /tmp/Console-log1.txt /tmp/Console-log2.txt /tmp/router_config /tmp/BR.cap /tmp/BR.cap0 /tmp/BR.cap1 /tmp/BR.cap2 /tmp/ETH.cap /tmp/ETH.cap0 /tmp/ETH.cap1 /tmp/ETH.cap2 /tmp/PPP.cap /tmp/PPP.cap0 /tmp/PPP.cap1 /tmp/PPP.cap2 /tmp/gbsd.txt /tmp/gbsd_old.txt /tmp/email_debug.txt /tmp/gbsd_dbg.txt /tmp/gbsd_dbg_old.txt /tmp/httpd_dbg_old.txt /tmp/httpd_dbg.txt /tmp/bitdefender_logs.tar.gz
+debug_hidden_page_dump_wifi_pkt
+debug_hidden_page_in_process
+[AFP]: cannot open system_debug_log.
+system_name=
+ver_check_ftp_password=
+pppoe2_passwd
+pppoe_tmp_passwd
+pppoe2_east_passwd
+pppoe2_west_passwd
+pptp_passwd
+l2tp_passwd
+l2tp_user_passwd
+bpa_passwd
+Invalid email or password
+provider=%s&should_exist=%d&hostname=%s&email=%s&password=%s&mac=%s&firmware=%s&serial=%s&model=%s
+sysDNSPassword_Netgear
+ddns_netgear_passwd
+sysDNSPassword_Netgear_account
+sysDNSPassword
+ddns_passwd
+MNU_login.htm
+MNU_relogin.htm
+killall -9 swresetd > /dev/null 2> /dev/null; killall -9 wlanconfigd > /dev/null 2> /dev/null; killall -9 dnsRedirectReplyd > /dev/null 2> /dev/null; killall -9 dnsmasq > /dev/null 2> /dev/null; killall -9 udhcpd > /dev/null 2> /dev/null; killall -9 telnetenabled > /dev/null 2> /dev/null; killall -9 ddnsd > /dev/null 2> /dev/null; killall -9 upnpd > /dev/null 2> /dev/null; killall -9 email > /dev/null 2> /dev/null; killall -9 lld2d > /dev/null 2> /dev/null; killall -9 wsc > /dev/null 2> /dev/null; killall -9 wps_monitor > /dev/null 2> /dev/null; killall -9 wps_ap > /dev/null 2> /dev/null; killall -9 upnp > /dev/null 2> /dev/null; killall -9 timesync > /dev/null 2> /dev/null; killall -9 pot > /dev/null 2> /dev/null 
+flag_use_passwd_digest
+password_answer1
+password_answer2
+genie_admin_password
+http://routerlogin.com/%s
+http://routerlogin.net/%s
+http://www.routerlogin.com/%s
+http://www.routerlogin.net/%s
+killall bpalogin
+sysOldPasswd
+sysNewPasswd
+PWD_password.htm
+password_question1
+password_question2
+admin:%s:10957:0:99999:7:::
+MNU_access_login.htm
+MNU_access_login_frame.htm
+MNU_accessUnauthorized_resetPassword.htm
+MNU_access_login2.htm
+ntgr_cgi_debug_msg
+BSW_wsw_passwd_edit.htm
+www.routerlogin.net/start.htm
+www.routerlogin.com/start.htm
+routerlogin.net/start.htm
+routerlogin.com/start.htm
+debug_extender
+ver_check_ftp_password
+faile_login_netgear_server
+#!/bin/sh
+debug_video
+debug_downstream_qos
+first_login
+genie_admin_account.htm
+wan_detect_debug
+skip_weak_password_change
+guiCgiGetGuestOrAdminMode
+admin_btn_start
+admin_btn_end
+{"id":"readycloud","state":"%s","owner":"%s","password":"%s"}
+admin:admin
+http://%s.routerlogin.net/shares
+<a class="linktype" target="_blank" href="http://%s.routerlogin.net/shares"><u><font color="#0000ff">http://%s.routerlogin.net/shares</font></u></a>
+ftp://%s.routerlogin.net/shares
+<a class="linktype" target="_blank" href="ftp://%s.routerlogin.net/shares/"><u><font color="#0000ff">ftp://%s.routerlogin.net/shares</font></u></a>
+All - no password
+TXT_remote_login
+TXT_remote_password
+/tmp/samba/private/passwd
+ETC_PASSWD_FILE Open Error!!!
+%s:*:0:0:%s:/:/bin/sh
+%s:%s:0:0:%s:/:/bin/sh
+/tmp/.samba_passwd
+*** Write Etc Passwd Error! ***
+/tmp/samba/private/smbpasswd
+admin users = admin
+valid users = admin
+comment=read:admin;write:admin
+comment=read:all-no password;write:all-no password
+valid users = admin guest
+comment=read:all-no password;write:admin
+write list = admin
+comment=read:admin;write:all-no password
+read list = admin
+write list = admin guest
+USB_NO_PASSWD
+<input id="USB_NO_PASSWD" type="hidden" value="%d">
+USB_ADMIN
+<input id="USB_ADMIN" type="hidden" value="%d">
+DENY_LOGIN="no"
+ADMIN_PASS="x"
+AUTH="PASSWD"
+ADMIN_PROTECT="no"
+ADMIN_PROTECT="yes"
+user admin {
+DENY_LOGIN="yes"
+echo '1' > /tmp/all_no_password
+repasswd
+<tr><td align="left"><input type="checkbox" id="RnoPasswd" %s name="ckbR_noPasswd" value = "noPasswd" onclick="readUser('%s','%s','%d');">%s</td></tr>
+RnoPasswd
+WnoPasswd
+<tr><td align="left"><input type="checkbox" id="WnoPasswd" %s name="ckbW_noPasswd" value="noPasswd" onclick="writeUser('%s','%s','%d');">%s</td></tr>
+file_system
+remote_debug
+wwan_password
+ppp_passwd
+airtelnet.es
+action_Httpd_Debug_Log
+action_Start_Debug
+action_telnet
+debug_hidden_page_dumprate_period
+debug_hidden_page_wifi_log_period
+debug_hidden_page_wifi_log_2_period
+debug_httpd_auto_bring_up
+debug_capture_lan_wan_packets
+debug_capture_detailed_wifi_log
+debug_smart_connect
+debug_smart_connect_timeout
+debug_email
+debug_smart_connect_threshold
+debug_hidden_page_wifi_rate_monitor
+telnet_on
+killall utelnetd
+telnetenabled &
+killall telnetenabled
+utelnetd &
+debug_port_mirror
+debug_logd &
+debug_check_kwilt
+DebugHiddenPage.htm
+httpd_debug_log
+downstream_qos_debug_mode
+hidden_page_debug_status
+Collecting debug information...
+debug.htm
+System_Uptime
+telnet_enable
+telnetd_enable
+single_pppoe_login
+dhcp6c_debug
+ipv6_system
+ipv6_system_name
+single_login
+Same login for PPPoEv4 and v6!
+ipv6_pppoe_passwd
+ipv6_system_name_auto
+RLOGIN
+RTELNET
+Telnet
+RLOGIN
+RTELNET
+Telnet
+RLOGIN
+RTELNET
+Telnet
+RLOGIN
+RTELNET
+Telnet
+block_ser_setup_telnet
+Telnet
